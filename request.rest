@@ -1,0 +1,19 @@
+
+###
+Get http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiJkZXciLCJlbWFpbCI6ImRld0BnbWFpbC5jb20iLCJpYXQiOjE2ODU2MzQxMjIsImV4cCI6MTY4NTYzNDEzN30.AH_pflQJJDCdUD-f6ep9oOaK16pdsOR1efu5AnkrV4g
+###
+POST  http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email":"dew@gmail.com",
+    "password":"1234"
+}
+
+###
+GET http://localhost:5000/token
+
+
+###
+DELETE  http://localhost:5000/logout
